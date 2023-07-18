@@ -1,6 +1,7 @@
 'use client'
 import { AnimateSequence } from '@/Components/AnimateSequence'
 import BorderAnimationTailwind from '@/Components/BorderAnimationTailwind'
+import Hovering from '@/Components/Hovering'
 import Spotlighteffect from '@/Components/Spot light effect'
 import Test from '@/Components/Spot light effect'
 
@@ -13,7 +14,9 @@ export default function page() {
       {/* <Spotlighteffect/> */}
       
        {/* <AnimateSequence/> */}
-       <BorderAnimationTailwind/>
+       {/* <BorderAnimationTailwind/> */}
+
+       <Hovering/>
     </main>
   )
 }

@@ -2,10 +2,10 @@ import React from 'react'
 
 export default function BorderAnimationTailwind() {
   return (
-    <div className="flex justify-center items-center  bg-slate-900">
+    <div className="flex justify-center items-center  ">
   <div className="group relative mx-auto max-w-lg w-[90%]">
     
-    <div className="gradient-bg relative rounded-xl p-1">
+    <div className="gradient-bg relative rounded-xl p-3">
       <div className="relative flex flex-col justify-between rounded-lg bg-slate-400 p-6">
         <div>
           <p className="text-sm font-medium text-gray-700">Lorem ipsum dolor sit amet consectetur adipisicing elit. odit esse asperiores aut? Aperiam dolorum non assumenda, nihil fuga numquam voluptatibus molestias.</p>
